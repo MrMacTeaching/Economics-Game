@@ -4,14 +4,15 @@ import { getAuth, signInWithCustomToken, onAuthStateChanged, GoogleAuthProvider,
 import { getFirestore, doc, getDoc, setDoc, updateDoc, onSnapshot, collection, query, getDocs } from 'firebase/firestore';
 
 // Ensure __app_id and __firebase_config are available in the environment
-const appId = "YOUR_FIREBASE_APP_ID"; // Example: "1:1234567890:web:abcdef123456"
+const appId = "1:70562535171:web:80a0b3251780ba07d43d0b6"; // Use the appId you copied
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID" // This should match the appId variable above
+  apiKey: "AIzaSyCR5aVk9Aup908qX3qN1RyF5WfKrUE154",
+  authDomain: "mac-economics.firebaseapp.com",
+  projectId: "mac-economics",
+  storageBucket: "mac-economics.firebaseapp.com",
+  messagingSenderId: "70562535171",
+  appId: "1:70562535171:web:80a0b3251780ba07d43d0b6",
+  measurementId: "G-ZBXSCXWT3G" // This might be optional, depending on your setup
 };
 
 // Initialize Firebase
